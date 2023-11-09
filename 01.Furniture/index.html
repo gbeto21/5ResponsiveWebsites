@@ -18,48 +18,87 @@
   </head>
   <body>
     <!-- #region Container-->
-    <!-- #region Navbar-->
-    <nav class="navbar">
-      <div class="navbar-top">
-        <div class="logo">
-          <i class="fa-solid fa-couch"></i>
-          <span>FURNITURE</span>
+    <div class="container">
+      <!-- #region Navbar-->
+      <nav class="navbar">
+        <div class="navbar-top">
+          <div class="logo">
+            <i class="fa-solid fa-couch"></i>
+            <span>FURNITURE</span>
+          </div>
+          <div class="search-bar">
+            <input type="text" placeholder="What are you looking for?" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="user">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>$0.00</span>
+            <i class="fa-regular fa-heart"> </i>
+            <i class="fa-solid fa-user"></i>
+          </div>
         </div>
-        <div class="search-bar">
-          <input type="text" placeholder="What are you looking for?" />
-          <i class="fa-solid fa-magnifying-glass"></i>
+        <div class="nav-list">
+          <div><i class="fa-solid fa-house"></i> <span>HOME</span></div>
+          <div><i class="fa-solid fa-couch"></i> <span>PRODUCTS</span></div>
+          <div>
+            <i class="fa-solid fa-dollar-sign"></i> <span>PRICING</span>
+          </div>
+          <div><i class="fa-brands fa-blogger"></i> <span>BLOG</span></div>
+          <div><i class="fa-solid fa-star"></i> <span>SALES</span></div>
+          <div><i class="fa-solid fa-message"></i> <span>CONTACT</span></div>
         </div>
-        <div class="user">
-          <i class="fa-solid fa-cart-shopping"></i>
-          <span>$0.00</span>
-          <i class="fa-regular fa-heart"> </i>
-          <i class="fa-solid fa-user"></i>
+      </nav>
+      <!-- #endregion -->
+
+      <!-- #region Landing-->
+      <section class="landing">
+        <div class="landing-bg"></div>
+        <div class="banner">
+          <img src="images/banner-img.jpg" class="banner-img" />
+          <h1 class="banner-heading">LUXYRY FURNITURE</h1>
+          <button class="banner-btn banner-btn-1">GO TO SHOP</button>
+          <button class="banner-btn banner-btn-2">EXPLORE</button>
         </div>
-      </div>
-      <div class="nav-list">
-        <div><i class="fa-solid fa-house"></i> <span>HOME</span></div>
-        <div><i class="fa-solid fa-couch"></i> <span>PRODUCTS</span></div>
-        <div><i class="fa-solid fa-dollar-sign"></i> <span>PRICING</span></div>
-        <div><i class="fa-brands fa-blogger"></i> <span>BLOG</span></div>
-        <div><i class="fa-solid fa-star"></i> <span>SALES</span></div>
-        <div><i class="fa-solid fa-message"></i> <span>CONTACT</span></div>
-      </div>
-    </nav>
-    <!-- #endregion -->
+      </section>
 
-    <!-- #region Landing-->
-    <section class="landing">
-      <div class="landing-bg"></div>
-      <div class="banner">
-        <img src="images/banner-img.jpg" class="banner-img"></img>
-        <h1 class="banner-heading">LUXYRY FURNITURE</h1>
-        <button class="banner-btn banner-btn-1">GO TO SHOP</button>
-        <button class="banner-btn banner-btn-2">EXPLORE</button>
-      </div>
-    </section>
+      <!-- #endregion -->
 
-    <!-- #endregion -->
-
+      <!-- #region Products-->
+      <section class="products">
+        <div class="products-top">
+          <h3>SEARCH FOR</h3>
+          <h2>15000</h2>
+          <h1>PRODUCTS</h1>
+        </div>
+        <div class="products-icons">
+          <div class="bedroom">
+            <img src="images/bedroom.png" alt="bedroom" />
+            <span>Bedroom</span>
+          </div>
+          <div class="buffet">
+            <img src="images/buffet.png" alt="buffet" />
+            <span>Buffet</span>
+          </div>
+          <div class="dining">
+            <img src="images/dining.png" alt="dining  " />
+            <span>Dining</span>
+          </div>
+          <div class="sofa">
+            <img src="images/sofa.png" alt="sofa" />
+            <span>Sofa</span>
+          </div>
+          <div class="table">
+            <img src="images/table.png" alt="table" />
+            <span>Table</span>
+          </div>
+          <div class="wardrobe">
+            <img src="images/wardrobe.png" alt="wardrobe" />
+            <span>Wardrobe</span>
+          </div>
+        </div>
+      </section>
+      <!-- #endregion-->
+    </div>
     <!-- #endregion -->
   </body>
 </html>

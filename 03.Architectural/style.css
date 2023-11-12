@@ -17,7 +17,7 @@ html {
 /*Container*/
 .container {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: #202020;
 }
 
@@ -29,6 +29,7 @@ html {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 100;
 }
 
 .brand {
@@ -294,5 +295,88 @@ html {
 }
 
 /*End of landing*/
+
+/*About*/
+.about {
+  width: 100%;
+  height: 75vh;
+  background-color: #313133;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+.about-left h1 {
+  font-size: 5rem;
+  color: #fff;
+  width: 50rem;
+  margin-bottom: 6rem;
+}
+
+.about-left p {
+  font-size: 2rem;
+  color: #fff;
+  width: 50rem;
+  margin-bottom: 5rem;
+}
+
+.about-left button {
+  width: 18rem;
+  height: 5rem;
+  background-color: transparent;
+  border: 0.2rem solid #dba81b;
+  color: #dba81b;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+
+.frame {
+  width: 50rem;
+  height: 35rem;
+  border: 3rem solid #555;
+  position: absolute;
+  top: 15rem;
+  right: 40rem;
+}
+
+.about-left .about-img-wrapper {
+  width: 50rem;
+  height: 35rem;
+  position: absolute;
+  top: 8rem;
+  right: 33rem;
+}
+
+.about-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-bottom {
+  position: absolute;
+  bottom: 2rem;
+  right: 33rem;
+  height: 12rem;
+  border-right: 1rem solid #dba81b;
+  text-align: right;
+  padding-right: 2rem;
+}
+
+.section-bottom h1 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 6rem;
+  color: #555;
+  letter-spacing: 0.5rem;
+}
+
+.section-bottom h3 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+/*End about*/
 
 /*End of container*/

@@ -229,4 +229,70 @@ html {
 
 /*End of navbar*/
 
+/*Landing */
+.landing {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+}
+
+.landing-img {
+  width: 92%;
+  height: 70vh;
+  position: absolute;
+  top: 11rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.landing-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3;
+}
+
+.banner {
+  position: absolute;
+  bottom: 15rem;
+  left: 20rem;
+}
+
+.banner-heading {
+  font-size: 9rem;
+  color: #fff;
+}
+
+.banner-heading span {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 8rem;
+  color: #dba81b;
+  letter-spacing: 0.5rem;
+}
+
+.banner-content {
+  display: flex;
+  align-items: center;
+}
+
+.banner-content p {
+  width: 45rem;
+  font-size: 2rem;
+  color: #fff;
+  margin-right: 2rem;
+}
+
+.banner-content button {
+  width: 15rem;
+  height: 5rem;
+  background-color: transparent;
+  border: 0.3rem solid #fff;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/*End of landing*/
+
 /*End of container*/

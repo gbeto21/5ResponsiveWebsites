@@ -502,4 +502,73 @@ html {
 
 /*End of projects*/
 
+/*Customers*/
+.customers {
+  width: 100%;
+  height: 80vh;
+  background-color: #313133;
+  padding-top: 7rem;
+  position: relative;
+}
+
+.customers-heading {
+  font-size: 8rem;
+  color: #fff;
+  margin: 0 0 10rem 9rem;
+  letter-spacing: 0.2rem;
+}
+
+.customers-content {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.customers-card {
+  position: relative;
+}
+
+.customers-card img {
+  width: 20rem;
+  position: absolute;
+  top: -5rem;
+  right: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.customers-card-content {
+  width: 50rem;
+  height: 22rem;
+  background-color: #777;
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+}
+
+.customers-card-content h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.customers-card-content h3 {
+  font-size: 1.8rem;
+  color: #ccc;
+  margin-bottom: 3rem;
+}
+
+.customers-card-content i {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.customers-card-content p {
+  font-size: 1.6rem;
+  color: #ccc;
+}
+
+/*End of customers*/
+
 /*End of container*/
